@@ -1,0 +1,160 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-grid">
+        <div>
+          <p class="eyebrow">Digital Humanities conference calendar</p>
+          <h1>DH Conference Radar</h1>
+          <p class="lede">A source-linked view of major global and regional Digital Humanities meetings, maintained as a small Jekyll site with quarterly source checks.</p>
+        </div>
+        <div class="status-panel" aria-label="Update status">
+          <span class="status-label">Last human verification</span>
+          <strong>{{ site.data.meta.last_verified }}</strong>
+          <span>Official sources are checked every three months by GitHub Actions.</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="band">
+        <div class="wrap tools" aria-label="Conference filters">
+          <label>
+            <span>Search</span>
+            <input id="searchBox" type="search" placeholder="Name, city, association, method...">
+          </label>
+          <label>
+            <span>Region</span>
+            <select id="regionFilter">
+              <option value="">All regions</option>
+              <option value="Global">Global</option>
+              <option value="Europe">Europe</option>
+              <option value="Americas">Americas</option>
+              <option value="Asia">Asia</option>
+              <option value="Africa">Africa</option>
+              <option value="Methods">Methods</option>
+            </select>
+          </label>
+          <label>
+            <span>Status</span>
+            <select id="statusFilter">
+              <option value="">All statuses</option>
+              <option value="confirmed">Confirmed</option>
+              <option value="watch">Watchlist</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <section class="wrap section">
+        <div class="section-head">
+          <h2>Upcoming Conferences</h2>
+          <p>Dates are included only when an official source has published them.</p>
+        </div>
+
+        <div class="conference-grid" id="conferenceGrid">
+          {% assign conferences = site.data.conferences | sort: "sort_date" %}
+          {% for event in conferences %}
+          <article class="conference-card" data-region="{{ event.region }}" data-status="{{ event.status }}" data-search="{{ event.name | downcase }} {{ event.organizer | downcase }} {{ event.city | downcase }} {{ event.country | downcase }} {{ event.tags | join: ' ' | downcase }} {{ event.summary | downcase }}">
+            <div class="card-topline">
+              <span class="pill">{{ event.region }}</span>
+              <span class="status {{ event.status }}">{{ event.status }}</span>
+            </div>
+            <h3>{{ event.name }}</h3>
+            <p class="date-line">
+              {% if event.start_date %}
+                <time datetime="{{ event.start_date }}">{{ event.display_dates }}</time>
+              {% else %}
+                Date to be announced
+              {% endif %}
+            </p>
+            <p class="place">{{ event.city }}{% if event.country %}, {{ event.country }}{% endif %}</p>
+            <p>{{ event.summary }}</p>
+            <dl>
+              <div>
+                <dt>Organizer</dt>
+                <dd>{{ event.organizer }}</dd>
+              </div>
+              <div>
+                <dt>Format</dt>
+                <dd>{{ event.format }}</dd>
+              </div>
+            </dl>
+            <div class="links">
+              {% if event.start_date %}
+              <a class="calendar-link" href="{{ '/calendar/' | append: event.id | append: '.ics' | relative_url }}" download>Add to calendar</a>
+              {% endif %}
+              {% if event.website %}
+              <a href="{{ event.website }}">Conference site</a>
+              {% endif %}
+              {% if event.source %}
+              <a href="{{ event.source }}">Source</a>
+              {% endif %}
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+        <p class="empty" id="emptyState" hidden>No conferences match those filters.</p>
+      </section>
+
+      <section class="wrap section">
+        <div class="section-head">
+          <h2>Organizations</h2>
+          <p>Associations are included even when their next conference has not been formally announced.</p>
+        </div>
+        <div class="org-list">
+          {% for org in site.data.organizations %}
+          <article class="org-row">
+            <div>
+              <h3>{{ org.name }}</h3>
+              <p>{{ org.description }}</p>
+            </div>
+            <div class="org-meta">
+              <span>{{ org.scope }}</span>
+              <a href="{{ org.website }}">Website</a>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="wrap section">
+        <div class="section-head">
+          <h2>Source Watch</h2>
+          <p>These pages are checked quarterly for changed conference information.</p>
+        </div>
+        <div class="watch-table" role="table" aria-label="Watched official sources">
+          <div class="watch-row watch-head" role="row">
+            <span role="columnheader">Source</span>
+            <span role="columnheader">Cadence</span>
+            <span role="columnheader">Use</span>
+          </div>
+          {% for source in site.data.source_watch.sources %}
+          <div class="watch-row" role="row">
+            <span role="cell"><a href="{{ source.url }}">{{ source.label }}</a></span>
+            <span role="cell">Quarterly</span>
+            <span role="cell">{{ source.purpose }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Curated from official association and conference pages. Suggested corrections should cite a public source.</p>
+      </div>
+    </footer>
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+  </body>
+</html>

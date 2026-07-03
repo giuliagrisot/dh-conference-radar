@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:dhd-2027@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270306
+SUMMARY:DHd2027
+LOCATION:Marburg\, Germany
+DESCRIPTION:The annual DHd meeting for the German-speaking DH community\, h
+ osted by the University of Marburg under the theme Mind the Gap.\n\nOrgani
+ zer: Digital Humanities im deutschsprachigen Raum\n\nSource: https://digit
+ alhumanities.de/2026/06/01/call-for-papers-dhd2027/\n\nWebsite: https://dh
+ d2027.digitalhumanities.de/
+URL:https://dhd2027.digitalhumanities.de/
+END:VEVENT
+END:VCALENDAR

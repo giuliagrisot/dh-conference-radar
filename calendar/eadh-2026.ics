@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:eadh-2026@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260920
+SUMMARY:EADH Conference 2026
+LOCATION:Krakow\, Poland
+DESCRIPTION:A major European DH meeting at Jagiellonian University\, with p
+ apers\, posters\, keynotes\, and regional networks.\n\nOrganizer: European
+  Association for Digital Humanities\n\nSource: https://eadh.org/news/2026/
+ 06/04/registration-now-open-eadh-2026-conference\n\nWebsite: https://eadh2
+ 026.confer.uj.edu.pl/
+URL:https://eadh2026.confer.uj.edu.pl/
+END:VEVENT
+END:VCALENDAR

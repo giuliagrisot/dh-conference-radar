@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:chr-2027@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270109
+SUMMARY:Computational Humanities Research 2027
+LOCATION:Manchester\, United Kingdom
+DESCRIPTION:A methods-forward conference for explicit formal\, statistical\
+ , computational\, and mathematical approaches to humanities questions.\n\n
+ Organizer: Computational Humanities Research community\n\nSource: https://
+ computational-humanities-research.org/conference/\n\nWebsite: https://2027
+ .computational-humanities-research.org/
+URL:https://2027.computational-humanities-research.org/
+END:VEVENT
+END:VCALENDAR

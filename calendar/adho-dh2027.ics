@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:adho-dh2027@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270704
+SUMMARY:ADHO Digital Humanities 2027
+LOCATION:Galway\, Ireland
+DESCRIPTION:The 2027 edition of ADHO's flagship international Digital Human
+ ities conference\, announced for the University of Galway.\n\nOrganizer: A
+ lliance of Digital Humanities Organizations\n\nSource: https://adho.org/co
+ nference/\n\nWebsite: https://adho.org/conference/
+URL:https://adho.org/conference/
+END:VEVENT
+END:VCALENDAR

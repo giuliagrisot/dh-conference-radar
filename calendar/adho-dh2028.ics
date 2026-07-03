@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:adho-dh2028@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20280704
+DTEND;VALUE=DATE:20280708
+SUMMARY:ADHO Digital Humanities 2028
+LOCATION:Cape Town\, South Africa
+DESCRIPTION:The 2028 edition of ADHO's flagship international conference\, 
+ announced for Cape Town with SADiLaR.\n\nOrganizer: Alliance of Digital Hu
+ manities Organizations and SADiLaR\n\nSource: https://adho.org/conference/
+ \n\nWebsite: https://adho.org/conference/
+URL:https://adho.org/conference/
+END:VEVENT
+END:VCALENDAR

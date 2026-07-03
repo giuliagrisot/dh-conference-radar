@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:jadh-2026@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260914
+SUMMARY:JADH2026
+LOCATION:Fukuoka\, Japan
+DESCRIPTION:The 15th annual JADH conference\, hosted at Kyushu University u
+ nder the theme Whose World\, Whose Data?\n\nOrganizer: Japanese Associatio
+ n for Digital Humanities\n\nSource: https://www.jadh2026.kyushu-u.ac.jp/\n
+ \nWebsite: https://www.jadh2026.kyushu-u.ac.jp/
+URL:https://www.jadh2026.kyushu-u.ac.jp/
+END:VEVENT
+END:VCALENDAR

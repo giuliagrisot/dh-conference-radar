@@ -1,0 +1,47 @@
+- id: adho
+  name: "Alliance of Digital Humanities Organizations (ADHO)"
+  scope: "Global umbrella"
+  website: "https://adho.org/"
+  description: "Coordinates constituent DH organizations and sponsors the flagship annual Digital Humanities conference."
+
+- id: eadh
+  name: "European Association for Digital Humanities (EADH)"
+  scope: "Europe"
+  website: "https://eadh.org/"
+  description: "A long-running European association supporting DH research, teaching, conferences, and regional networks."
+
+- id: ach
+  name: "Association for Computers and the Humanities (ACH)"
+  scope: "Americas and international"
+  website: "https://ach.org/"
+  description: "One of the oldest DH organizations, with strong interdisciplinary and accessible-event activity across the Americas."
+
+- id: jadh
+  name: "Japanese Association for Digital Humanities (JADH)"
+  scope: "Japan and Asia"
+  website: "https://www.jadh.org/"
+  description: "Hosts an annual conference and supports DH scholarship through journals, events, and Japanese/global DH networks."
+
+- id: dhd
+  name: "Digital Humanities im deutschsprachigen Raum (DHd)"
+  scope: "German-speaking Europe"
+  website: "https://digitalhumanities.de/"
+  description: "The German-speaking DH association, running one of Europe's largest regional DH conferences."
+
+- id: humanistica
+  name: "Humanistica"
+  scope: "Francophone DH"
+  website: "https://www.humanisti.ca/"
+  description: "The francophone association for digital humanities, fostering research exchange across French-speaking communities."
+
+- id: aiucd
+  name: "Associazione Informatica Umanistica e Cultura Digitale (AIUCD)"
+  scope: "Italy"
+  website: "https://www.aiucd.it/"
+  description: "The Italian DH association and a major hub for European digital humanities research and pedagogy."
+
+- id: chr
+  name: "Computational Humanities Research (CHR)"
+  scope: "Methods-forward international"
+  website: "https://computational-humanities-research.org/"
+  description: "An international community for computational, quantitative, formal, and statistical humanities research."

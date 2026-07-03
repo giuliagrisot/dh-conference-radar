@@ -1,0 +1,63 @@
+sources:
+  - id: adho-conference
+    label: "ADHO conference page"
+    url: "https://adho.org/conference/"
+    purpose: "Global DH conference dates and future host cities"
+    selector_hint: "Upcoming Conferences"
+    last_hash: ""
+
+  - id: dh2026
+    label: "DH2026 official site"
+    url: "https://dh2026.adho.org/"
+    purpose: "Detailed DH2026 dates, venue, program, and registration updates"
+    selector_hint: "home page notices"
+    last_hash: ""
+
+  - id: eadh-news
+    label: "EADH news"
+    url: "https://eadh.org/news"
+    purpose: "EADH annual conference announcements and registration news"
+    selector_hint: "conference news posts"
+    last_hash: ""
+
+  - id: jadh-home
+    label: "JADH news and events"
+    url: "https://www.jadh.org/"
+    purpose: "JADH annual conference calls and date announcements"
+    selector_hint: "News & Events"
+    last_hash: ""
+
+  - id: dhd-home
+    label: "DHd official site"
+    url: "https://digitalhumanities.de/"
+    purpose: "DHd annual conference calls and future host details"
+    selector_hint: "DHd-Konferenzen"
+    last_hash: ""
+
+  - id: chr-conference
+    label: "CHR conference page"
+    url: "https://computational-humanities-research.org/conference/"
+    purpose: "Computational Humanities Research annual conference dates"
+    selector_hint: "Conference"
+    last_hash: ""
+
+  - id: ach-home
+    label: "ACH official site"
+    url: "https://ach.org/"
+    purpose: "ACH conference and virtual event announcements"
+    selector_hint: "announcements"
+    last_hash: ""
+
+  - id: humanistica-home
+    label: "Humanistica official site"
+    url: "https://www.humanisti.ca/"
+    purpose: "Humanistica annual conference announcements"
+    selector_hint: "conference posts"
+    last_hash: ""
+
+  - id: aiucd-home
+    label: "AIUCD official site"
+    url: "https://www.aiucd.it/"
+    purpose: "AIUCD annual conference announcements"
+    selector_hint: "news posts"
+    last_hash: ""

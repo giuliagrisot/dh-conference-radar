@@ -1,0 +1,14 @@
+title: DH Conference Radar
+description: A curated, source-linked calendar of major Digital Humanities conferences.
+url: ""
+baseurl: ""
+timezone: Europe/London
+
+collections: {}
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - scripts

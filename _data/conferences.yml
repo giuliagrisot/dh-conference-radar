@@ -1,0 +1,169 @@
+- id: adho-dh2026
+  name: "ADHO Digital Humanities 2026"
+  organizer: "Alliance of Digital Humanities Organizations, hosted by KADH"
+  region: "Global"
+  city: "Daejeon"
+  country: "South Korea"
+  start_date: "2026-07-27"
+  end_date: "2026-07-31"
+  sort_date: "2026-07-27"
+  display_dates: "27-31 July 2026"
+  status: "confirmed"
+  format: "In person with virtual participation details"
+  website: "https://dh2026.adho.org/"
+  source: "https://dh2026.adho.org/"
+  tags: ["adho", "global", "kadh", "digital humanities"]
+  summary: "The flagship annual ADHO conference, hosted in Daejeon under the theme of Engagement."
+
+- id: eadh-2026
+  name: "EADH Conference 2026"
+  organizer: "European Association for Digital Humanities"
+  region: "Europe"
+  city: "Krakow"
+  country: "Poland"
+  start_date: "2026-09-15"
+  end_date: "2026-09-19"
+  sort_date: "2026-09-15"
+  display_dates: "15-19 September 2026"
+  status: "confirmed"
+  format: "In person"
+  website: "https://eadh2026.confer.uj.edu.pl/"
+  source: "https://eadh.org/news/2026/06/04/registration-now-open-eadh-2026-conference"
+  tags: ["eadh", "europe", "krakow", "jagiellonian"]
+  summary: "A major European DH meeting at Jagiellonian University, with papers, posters, keynotes, and regional networks."
+
+- id: jadh-2026
+  name: "JADH2026"
+  organizer: "Japanese Association for Digital Humanities"
+  region: "Asia"
+  city: "Fukuoka"
+  country: "Japan"
+  start_date: "2026-09-11"
+  end_date: "2026-09-13"
+  sort_date: "2026-09-11"
+  display_dates: "11-13 September 2026"
+  status: "confirmed"
+  format: "In person"
+  website: "https://www.jadh2026.kyushu-u.ac.jp/"
+  source: "https://www.jadh2026.kyushu-u.ac.jp/"
+  tags: ["jadh", "japan", "kyushu", "asia"]
+  summary: "The 15th annual JADH conference, hosted at Kyushu University under the theme Whose World, Whose Data?"
+
+- id: chr-2027
+  name: "Computational Humanities Research 2027"
+  organizer: "Computational Humanities Research community"
+  region: "Methods"
+  city: "Manchester"
+  country: "United Kingdom"
+  start_date: "2027-01-05"
+  end_date: "2027-01-08"
+  sort_date: "2027-01-05"
+  display_dates: "5-8 January 2027"
+  status: "confirmed"
+  format: "To be confirmed by conference site"
+  website: "https://2027.computational-humanities-research.org/"
+  source: "https://computational-humanities-research.org/conference/"
+  tags: ["chr", "methods", "computational humanities", "quantitative"]
+  summary: "A methods-forward conference for explicit formal, statistical, computational, and mathematical approaches to humanities questions."
+
+- id: dhd-2027
+  name: "DHd2027"
+  organizer: "Digital Humanities im deutschsprachigen Raum"
+  region: "Europe"
+  city: "Marburg"
+  country: "Germany"
+  start_date: "2027-03-01"
+  end_date: "2027-03-05"
+  sort_date: "2027-03-01"
+  display_dates: "1-5 March 2027"
+  status: "confirmed"
+  format: "In person"
+  website: "https://dhd2027.digitalhumanities.de/"
+  source: "https://digitalhumanities.de/2026/06/01/call-for-papers-dhd2027/"
+  tags: ["dhd", "german-speaking", "marburg", "europe"]
+  summary: "The annual DHd meeting for the German-speaking DH community, hosted by the University of Marburg under the theme Mind the Gap."
+
+- id: adho-dh2027
+  name: "ADHO Digital Humanities 2027"
+  organizer: "Alliance of Digital Humanities Organizations"
+  region: "Global"
+  city: "Galway"
+  country: "Ireland"
+  start_date: "2027-06-28"
+  end_date: "2027-07-03"
+  sort_date: "2027-06-28"
+  display_dates: "28 June-3 July 2027"
+  status: "confirmed"
+  format: "To be confirmed"
+  website: "https://adho.org/conference/"
+  source: "https://adho.org/conference/"
+  tags: ["adho", "global", "ireland", "galway"]
+  summary: "The 2027 edition of ADHO's flagship international Digital Humanities conference, announced for the University of Galway."
+
+- id: adho-dh2028
+  name: "ADHO Digital Humanities 2028"
+  organizer: "Alliance of Digital Humanities Organizations and SADiLaR"
+  region: "Global"
+  city: "Cape Town"
+  country: "South Africa"
+  start_date: "2028-07-04"
+  end_date: "2028-07-07"
+  sort_date: "2028-07-04"
+  display_dates: "4-7 July 2028"
+  status: "confirmed"
+  format: "To be confirmed"
+  website: "https://adho.org/conference/"
+  source: "https://adho.org/conference/"
+  tags: ["adho", "global", "africa", "sadilar"]
+  summary: "The 2028 edition of ADHO's flagship international conference, announced for Cape Town with SADiLaR."
+
+- id: ach-next
+  name: "ACH next conference or virtual event"
+  organizer: "Association for Computers and the Humanities"
+  region: "Americas"
+  city: "TBA"
+  country: ""
+  start_date:
+  end_date:
+  sort_date: "9999-01-01"
+  display_dates: "TBA"
+  status: "watch"
+  format: "TBA"
+  website: "https://ach.org/"
+  source: "https://ach.org/"
+  tags: ["ach", "americas", "virtual", "digital humanities"]
+  summary: "ACH is a core ADHO constituent organization; its independent event details should be monitored through ACH announcements."
+
+- id: humanistica-next
+  name: "Humanistica next annual conference"
+  organizer: "Humanistica"
+  region: "Europe"
+  city: "TBA"
+  country: ""
+  start_date:
+  end_date:
+  sort_date: "9999-01-02"
+  display_dates: "TBA"
+  status: "watch"
+  format: "TBA"
+  website: "https://www.humanisti.ca/"
+  source: "https://www.humanisti.ca/"
+  tags: ["humanistica", "francophone", "digital humanities"]
+  summary: "The francophone DH association should be tracked for annual conference announcements and calls."
+
+- id: aiucd-next
+  name: "AIUCD next annual conference"
+  organizer: "Associazione Informatica Umanistica e Cultura Digitale"
+  region: "Europe"
+  city: "TBA"
+  country: "Italy"
+  start_date:
+  end_date:
+  sort_date: "9999-01-03"
+  display_dates: "TBA"
+  status: "watch"
+  format: "TBA"
+  website: "https://www.aiucd.it/"
+  source: "https://www.aiucd.it/"
+  tags: ["aiucd", "italy", "digital humanities"]
+  summary: "AIUCD is the Italian DH association and a major European DH hub; the next annual conference needs source confirmation."

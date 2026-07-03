@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//DH Conference Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:adho-dh2026@dh-conference-radar
+DTSTAMP:20260703T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260801
+SUMMARY:ADHO Digital Humanities 2026
+LOCATION:Daejeon\, South Korea
+DESCRIPTION:The flagship annual ADHO conference\, hosted in Daejeon under t
+ he theme of Engagement.\n\nOrganizer: Alliance of Digital Humanities Organ
+ izations\, hosted by KADH\n\nSource: https://dh2026.adho.org/\n\nWebsite: 
+ https://dh2026.adho.org/
+URL:https://dh2026.adho.org/
+END:VEVENT
+END:VCALENDAR
