@@ -1,0 +1,37 @@
+name: Quarterly source check
+
+on:
+  schedule:
+    - cron: "12 8 1 */3 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check official source pages
+        run: python scripts/update_conferences.py
+
+      - name: Open review pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: bot/quarterly-source-check
+          title: "Review changed DH conference sources"
+          commit-message: "Record quarterly DH conference source changes"
+          body: |
+            Official DH conference sources changed during the scheduled check.
+
+            Please review the generated report in `reports/`, then update `_data/conferences.yml` if any dates, venues, calls, or links need to change.
+          labels: data-review
